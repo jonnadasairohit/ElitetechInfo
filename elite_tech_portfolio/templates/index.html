@@ -1,0 +1,699 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Elite Infotech</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/elite-title-logo.png' %}" rel="icon">
+  <link href="{% static 'assets/img/elite-title-logo.png' %}" rel="elite-title-logo">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <!-- One file includes all the Font Awesome Free icons and utilities -->
+  <link href="{% static 'fontawesomefree/css/all.min.css' %}" rel="stylesheet" type="text/css">
+  <script src="{% static 'fontawesomefree/js/all.min.js' %}"></script>
+
+
+
+  <!-- Variables CSS Files. Uncomment your preferred color scheme -->
+  <link href="{% static 'assets/css/variables-blue.css' %}" rel="stylesheet">
+  <!-- <link href="{% static 'assets/css/variables-blue.css' %}" rel="stylesheet"> -->
+  <!-- <link href="{% static 'assets/css/variables-green.css' %}" rel="stylesheet"> -->
+  <!-- <link href="{% static 'assets/css/variables-orange.css' %}" rel="stylesheet"> -->
+  <!-- <link href="{% static 'assets/css/variables-purple.css' %}" rel="stylesheet"> -->
+  <!-- <link href="{% static 'assets/css/variables-red.css' %}" rel="stylesheet"> -->
+  <!-- <link href="{% static 'assets/css/variables-pink.css' %}" rel="stylesheet"> -->
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'assets/css/main.css' %}" rel="stylesheet">
+  <style>
+  h2 {
+    background-image: url('bg.png');
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top" data-scrollto-offset="0">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="#" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+
+     <img href="index.html" src="/static/assets/img/logo.png">
+<!--         <h1>EliteTechInfo<span>.</span></h1>-->
+
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#"><span><b>Home</b></span></a></li>
+          <li><a class="nav-link" href="#about"><b>About</b></a></li>
+          <li><a class="nav-link" href="#features"><b>Services</b></a></li>
+          <li><a class="nav-link" href="#clients"><b>Clients</b></a></li>
+          <li><a class="nav-link" href="#contact"><b>Contact-Us</b></a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle d-none"></i>
+      </nav>
+
+<!--      <a class="btn-getstarted scrollto" href="index.html#about">Get Started</a>-->
+
+    </div>
+  </header><!-- End Header -->
+
+  <section id="hero-animated" class="hero-animated d-flex align-items-center" >
+    <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
+<!--      <img src="{% static 'assets/img/hero-carousel/main_page.jpg' %}" class="img-fluid animated">-->
+
+      <h2>Welcome to <span>EliteTechInfo</span></h2>
+      <p>Right Place For Right Job.</p>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
+            <div class="service-item position-relative">
+                <div class="icon"><i class="fa-regular fa-lightbulb color-yellow"style='font-size:36px'></i></div>
+              <h4><a href="" class="stretched-link">Creative Designs</a></h4>
+              <p align="justify"> We have the ability to quickly establish contact with candidates who possess the skills you need. Backed up by our own literature, distributed both by electronic and conventional post we can deliver a more cost effective method of reaching skilled IT personnel.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="fa-regular fa-handshake color-blue"style='font-size:36px'></i></div>
+              <h4><a href="" class="stretched-link">GREAT SUPPORT</a></h4>
+              <p align="justify">Elite Tech Info offers world class solution and services to all our clients and support services of experienced personal. We offer a dynamic blend of strategy consulting and system integration services to help organizations architect and built their business in the Economical way.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="fa-solid fa-mobile-screen-button " style='font-size:36px;color:red';></i></div>
+              <h4><a href="" class="stretched-link">FULLY RESPONSIVE</a></h4>
+              <p align="justify">Elite Tech Info as the market leader, improves business results through innovative software and services focused on Talent Management. Our integrated approach to Web sourcing, recruiting, candidate relationship marketing and applicant tracking enables organizations worldwide to build relationships with the highest quality talent at the lowest possible cost.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="fa-solid fa-people-group color-black"style='font-size:36px'></i></div>
+              <h4><a href="" class="stretched-link">DEDICATED TEAM</a></h4>
+              <p align="justify">We at Elite Tech Info believe that the processes and people are always on a continues improvement path, and the ultimate goal is to offer better value to our customers.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>About Us</h2>     
+        </div>
+
+        <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-5">
+            <div class="about-img">
+              <img src="{% static 'assets/img/about.jpg' %}" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+
+
+
+            <!-- Tab Content -->
+            <div class="tab-content">
+
+              <div class="tab-pane fade show active" id="tab1"style="">
+
+                <div class="d-flex align-items-center mt-4">
+                </div>
+                <p align="justify">ELITE is a leading global provider of innovatory banking and payments solutions to financial institutions of all sizes. The company’s original organizers founded Elite in 2021. We established our Office in MI and now we have another office in TX to. For your info you can enroute to our office in TX by the location we provided. ELITE has enjoyed significant growth in recent years, currently serving more than 25 clients in USA as of now and we promise you that we will increase it to. The company attributes its success to its outstanding associates located in the America and India, who have developed, implemented, and supported state-of-the-art solutions for its customers.</p>
+
+              </div><!-- End Tab 1 Content -->
+
+
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Services</h2>
+        </div>
+                <ul class="nav nav-tabs row gy-4 d-flex">
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+              <i class="fab fa-java color-orange"style='font-size:36px'></i>
+              <h4>Java</h4>
+            </a>
+          </li><!-- End Tab 1 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+              <i class="fa-brands fa-python color-yellow"style='font-size:36px'></i>
+              <h4>Python</h4>
+            </a>
+          </li><!-- End Tab 2 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+              <i class="fa-brands fa-react color-cyan"style='font-size:36px'></i>
+              <h4>React</h4>
+            </a>
+          </li><!-- End Tab 3 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+              <i class="fa-brands fa-angular  color-red"style='font-size:36px'></i>
+              <h4>Angular</h4>
+            </a>
+          </li><!-- End Tab 4 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
+              <i class="fa-brands fa-aws  color-orange"style='font-size:36px'></i>
+              <h4>AWS</h4>
+            </a>
+          </li><!-- End Tab 5 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-6">
+              <i class="fa-brands fa-windows color-cyan"style='font-size:48px'></i>
+              <h4>Azure</h4>
+            </a>
+          </li><!-- End Tab 6 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-7">
+             <i class="fa-solid fa-user-shield color-blue" style='font-size:48px'></i>
+              <h4>Cyber Security</h4>
+            </a>
+          </li><!-- End Tab 7 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-8">
+              <i class="fa-brands fa-salesforce  color-cyan"style='font-size:48px'></i>
+              <h4>Salesforce</h4>
+            </a>
+          </li><!-- End Tab 8 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-9">
+              <i class="fa-solid fa-users-gear color-teal"style='font-size:48px'></i>
+              <h4>Automation</h4>
+            </a>
+          </li><!-- End Tab 9 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-10">
+              <i class="fa-solid fa-infinity color-indigo"style='font-size:48px'></i>
+              <h4>DevOps</h4>
+            </a>
+          </li><!-- End Tab 10 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-11">
+              <i class="fa-solid fa-database"style='font-size:36px;color:black'></i>
+              <h4>Data Engineering</h4>
+            </a>
+          </li><!-- End Tab 11 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-12">
+              <i class="fa-brands fa-hive "style='font-size:36px;color:tan'></i>
+              <h4>Big Data</h4>
+            </a>
+          </li><!-- End Tab 12 Nav -->
+
+
+
+
+
+        </ul>
+
+        <div class="tab-content">
+
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+                <h3>Java</h3>
+                <p>
+                  High-level, class-based, object-oriented Java is created to have as few implementation dependencies as possible.
+                  In other words, compiled Java code can run on any platforms that accept Java without the need to recompile.
+                  It is a general-purpose programming language designed to enable programmers create code once and run it anywhere.
+                  Commonly, Java applications are translated into bytecode so that they may be executed on any Java virtual machine, regardless of the underlying computer architecture.
+                  Despite having fewer low-level features than either C or C++, Java offers syntax that is comparable to those languages.
+                  Dynamic features that are frequently absent from conventionally compiled languages are offered by the Java runtime.
+                  Java, particularly for client-server applications, was one of the most widely used programming languages as of 2019.
+                </p>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                <img src="{% static 'assets/img/features-1.jpg' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 1 -->
+
+          <div class="tab-pane" id="tab-2">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Python</h3>
+                <p>
+                  Python is a popular programming language for computers that is used to create software and websites, automate processes, and analyze data.
+                  Python is a general-purpose language, which means that it may be used to make a wide range of programs and isn't tailored for any particular issues.
+                  One of the most popular programming languages today is a result of its versatility and beginner-friendliness. It ranked as the second-most popular programming language among developers in a RedMonk survey of the market.
+                  Task automation, data analysis, and data visualization are all frequent uses for Python in the creation of websites and software.
+                  Many non-programmers, including accountants and scientists, have started using Python since it's reasonably simple to learn and useful for a wide range of daily chores, including managing funds.
+                </p>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="{% static 'assets/img/features-2.jpeg' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 2 -->
+
+          <div class="tab-pane" id="tab-3">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>React</h3>
+                <p>
+                  React's main function in an application is to manage the view layer by offering the best and most effective rendering execution, much like the V in a model-view-controller (MVC) paradigm.
+                  Instead of treating the entire user interface as a single entity, React.js encourages developers to break these intricate UIs down into distinct reusable components that serve as the foundation for the entire UI.
+                  In order to render web pages more quickly and develop highly dynamic and responsive online apps, the ReactJS framework does this by combining the speed and efficiency of JavaScript with a more efficient approach of manipulating the DOM.
+                </p>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="{% static 'assets/img/features-3.jpg' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 3 -->
+
+          <div class="tab-pane" id="tab-4">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Angular</h3>
+                <p>
+                 Building corporate Single-page Web Applications (or SPAs) with HTML and TypeScript is possible utilizing the contemporary MVVC framework and platform known as Angular.
+                  In TypeScript, Angular is written. By importing a set of TypeScript libraries into your projects, it implements both mandatory and optional functionality.
+                  You must become familiar with Angular and the numerous parts that go into making an Angular app because it is an opinionated framework that prescribes a particular design and set of guidelines for developers to follow.
+                  Thus, Angular is the framework that makes use of TypeScript as its main programming language.
+                </p>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="{% static 'assets/img/features-4.jpg' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 4 -->
+
+          <div class="tab-pane" id="tab-5">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>AWS</h3>
+                <p>
+                 Given its enormous popularity, AWS, which stands for Amazon Web Services, need no official introduction.
+                  Amazon Web Services is the most popular cloud provider on the market.
+                  The developers can access more than 170 AWS services through it from anywhere at any time.Over 190 nations around the world have AWS customers, including 5000 educational technology institutes and 2000 governmental organizations.
+                  AWS services are used by numerous businesses, including ESPN, Adobe, Twitter, Netflix, Facebook, BBC, etc.
+                  AWS is a widely used cloud computing platform that gives businesses access to a variety of on-demand services like compute power, database storage, content distribution, etc.
+                </p>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="{% static 'assets/img/features-5.jpeg' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 5 -->
+
+          <div class="tab-pane" id="tab-6">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Azure</h3>
+                <p>
+                  Microsoft Azure is a platform that allows customers to employ agile cloud computing and is made for developing and maintaining apps through Microsoft's data centers.
+                  You may utilize the platform's plethora of features to significantly improve your IT performance.
+                  Due to its flexibility, even official Azure standards can be perplexing and challenging to follow.
+                  Azure is Microsoft's operating system for cloud computing, to put it simply. Azure is also very adaptable, enabling you to employ a variety of programming languages, frameworks, and development tools to build the unique applications you require.
+                  It functions as a platform that also enables you to scale up applications with limitless servers and storage.
+                </p>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="{% static 'assets/img/features-6.jpg' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 6 -->
+
+          <div class="tab-pane" id="tab-7">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Cyber Security</h3>
+                <p>
+                  Protecting internet-connected systems, including their hardware, software, and data, from online threats is known as cybersecurity. In order to prevent unwanted access to data centers and other digital systems, both people and businesses utilize this approach.
+                  A solid cybersecurity plan can give users and organizations a good security posture against malicious assaults that aim to gain access to, alter, delete, destroy, or extort sensitive data and systems.
+                  A system's or device's activities being disabled or otherwise disrupted can be prevented by cyberattacks thanks in large part to cybersecurity. The relevance of cybersecurity is continuing to increase due to the rise in people, devices, and software in today's businesses, as well as the flood of new data, most of it sensitive or confidential.
+                  The volume of cyberattacks is rising, and they're becoming more sophisticated.
+                </p>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="{% static 'assets/img/features-7.jpeg' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 7 -->
+          <div class="tab-pane" id="tab-8">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>SalesForce</h3>
+                <p>
+                  Salesforce is a corporation that offers software as a service (SaaS) for cloud computing and focuses on customer relationship management (CRM).
+                  With the help of Salesforce's services, organizations can leverage cloud computing to engage with their current and potential clients and partners more effectively.
+                  With its ability to track customer activity, market to customers, and provide many other services, the software has emerged as the industry leader in ensuring client success.
+                  Salesforce is used by businesses to better understand their clients, establish many points of contact with them, and expand their clientele. With the convenience of cloud storage and access from any location, cloud-based software enables businesses to manage analytics, customer success and support, customer complaints, and a range of other CRM activities.
+                </p>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="{% static 'assets/img/features-8.jpg' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 8 -->
+
+          <div class="tab-pane" id="tab-9">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Automation</h3>
+                <p>
+                  Software and other computer goods are tested automatically to make sure they abide by tight guidelines.
+                  In essence, it's a test to ensure that the hardware or software performs exactly as intended.
+                  It checks for errors, flaws, and any other problems that might occur throughout the creation of the product. Although some testing methods, such functional or regression testing, can be carried out manually, doing so has less advantages. It looks at the software using scripted sequences.
+                  It then summarizes what was discovered, and this data can be compared to results from earlier test runs. To actually test the software and goods, the QA automation tester will collaborate with automation test engineers and product developers.
+                </p>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="{% static 'assets/img/features-9.jpg' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 9 -->
+
+          <div class="tab-pane" id="tab-10">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Devops</h3>
+                <p>
+               DevOps refers to methods for accelerating the procedures by which an idea is developed and then deployed in a production setting where it can add value for the user.
+                  These methods call for frequent communication between development teams and operations teams, as well as an attitude of empathy for one another.
+                  Additionally required are scalability and flexible provisioning. Those that require the most power benefit from DevOps because of self-service and automation. Developers collaborate closely with IT operations to speed up software builds, testing, and releases without compromising dependability.
+                  They often code in a standard development environment.
+                </p>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="{% static 'assets/img/features-10.jpeg' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 10 -->
+
+          <div class="tab-pane" id="tab-11">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>DataEngineering</h3>
+                <p>
+                 Data engineering is the practice of developing large-scale data collection, storage, and analysis systems.
+                  It covers a wide range of topics and has uses in almost every business.
+                  Massive volumes of data can be gathered by organizations, but to make sure that it is in a highly useable shape by the time it reaches data scientists and analysts, they need the right personnel and the right technology. Data engineers create systems that gather, handle, and transform unprocessed data into information that data scientists and business analysts may use to evaluate it in a number of contexts.
+                  Their ultimate objective is to open up data so that businesses can utilize it to assess and improve their performance.
+                </p>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="{% static 'assets/img/features-11.jpg' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 11 -->
+
+          <div class="tab-pane" id="tab-12">
+            <div class="row gy-4">
+              <div class="col-lg-8 order-2 order-lg-1">
+                <h3>Big Data</h3>
+                <p>
+                  Big data is a collection of structured, semistructured, and unstructured data that is gathered by businesses and may be mined for information for use in advanced analytics applications like machine learning and predictive modeling.
+                  Together with tools that support big data analytics purposes, systems that process and store big data have become a frequent part of data management infrastructures in businesses.
+                  The examination of customer behavior is one of the key uses of advanced data analysis. Brands utilize social networks like Facebook, Twitter, and Instagram as a platform to communicate with and learn more about their customers.
+                </p>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <img src="{% static 'assets/img/features-12.jpg' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content 12 -->
+
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="section-header">
+          <h2>Our Clients </h2>
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/1.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/2.jpg' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/3.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/4.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/5.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/6.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/7.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/8.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/9.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/10.jpg' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/11.jpg' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/12.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/13.jpg' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/14.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/15.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/16.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/17.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/18.jpg' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/19.jpg' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/20.jpg' %}" class="img-fluid" alt=""></div>
+
+          </div>
+        </div>
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Contact Us</h2>
+        </div>
+
+      </div>
+
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3339.741369510934!2d-96.73053268505508!3d33.16841608085565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c15b569e4b7c9%3A0xbcbbb7583f40f1b8!2s3721%20S%20Stonebridge%20Dr%2C%20McKinney%2C%20TX%2075070!5e0!3m2!1sen!2sus!4v1670957586600!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div><!-- End Google Maps -->
+
+      <div class="container">
+
+        <div class="row gy-5 gx-lg-5">
+
+          <div class="col-lg-4">
+
+            <div class="info" id ="info">
+              <h3>Get in touch</h3>
+              <p>Are you trying to find new employment opportunities? Are you prepared to locate your firm a superior hiring solution? Elite Tech Info forges alliances that advance the careers of our candidates and clients.</p>
+
+              <div class="info-item d-flex">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h4>Location:</h4>
+                  <p>3721 S Stonebridge Dr, Ste 1404B McKinney, TX 75070</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h4>Email:</h4>
+                  <p>info@elitetechinfo.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-phone flex-shrink-0"></i>
+                <div>
+                  <h4>Call:</h4>
+                  <p>+1 609-772-9353</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="{% url 'contact-us' %}" method="post">
+              {% csrf_token %}
+<!--            <form>-->
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" placeholder="Message" required style="height:200px"></textarea>
+              </div>
+<!--              <div class="my-3">-->
+<!--                <div class="loading">Loading</div>-->
+<!--                <div class="error-message"></div>-->
+<!--                <div class="sent-message">Your message has been sent. Thank you!</div>-->
+<!--              </div>-->
+<!--              <div class="text-center"><button type="submit">Send Message</button></div>-->
+              <div><button type="submit" class="btn btn-primary btn-lg active align-items-center"style="position: absolute;left: 50%;transform: translateX(-50%);">Send Message</button></div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Elite Tech Info</h3>
+              <p>
+                3721 S Stonebridge Dr, Ste 1404B <br>
+                McKinney, TX 75070<br><br>
+                <strong>Phone:</strong> +1 609-772-9353<br>
+                <strong>Email:</strong> info@elitetechinfo.com<br>
+              </p>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Menu</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a class="nav-link scrollto" href="#">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a class="nav-link scrollto" href="index.html#scrollabout">About</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a class="nav-link scrollto" href="index.html#scrollfeatures">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a class="nav-link scrollto" href="index.html#scrollclients">Clients</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a class="nav-link scrollto" href="index.html#scrollcontact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <a href="https://www.e-verify.gov/about-e-verify/e-verify-data/how-to-find-participating-employers?business-name=ELITE%20TECH%20INFO%20INC&naics[]=14&field_account_status_value=All&items_per_page=10"> <img src="{% static 'assets/img/E-verify.jpg' %}" class="img-fluid" alt="">
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal text-center">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Elite Tech Info</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+            Designed by Sai Rohit Jonnada
+          </div>
+        </div>
+
+<!--        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">-->
+<!--          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>-->
+<!--          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>-->
+<!--          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>-->
+<!--          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>-->
+<!--        </div>-->
+
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->main.js
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+
+</html>
