@@ -19,6 +19,7 @@ from elite_website import urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+
 ]
 
 urlpatterns += urls.urlpatterns
